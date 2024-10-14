@@ -89,8 +89,6 @@ SITEMAP_INDEX_URL = "https://watchesofmayfair.com/sitemaps/general/sitemap_com_i
 
 # Namespaces
 NAMESPACES = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9', 'xhtml': 'http://www.w3.org/1999/xhtml'}
-
-
 # Function to extract <loc> links from sitemap index
 def extract_sitemap_urls(sitemap_index_url):
     print(f"Fetching sitemap index: {sitemap_index_url}")
